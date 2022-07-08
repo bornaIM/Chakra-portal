@@ -1,4 +1,4 @@
-import { Button, useColorMode } from "@chakra-ui/react";
+import { Button, FormLabel, Input, useColorMode } from "@chakra-ui/react";
 import { useState } from "react";
 import { DemoFilter } from "chakra-ui-demo";
 
@@ -23,7 +23,7 @@ export const DemoFilterPage = (props: any) => {
 
     return (
         <>
-            <Button variant="primary" onClick={toggleColorMode}>Toogle Color</Button>
+            <Button id='pero' variant="primary" onClick={toggleColorMode}>Toogle Color</Button>
             <Button variant="primary" onClick={toggleVariant}>Toogle DemoFilter variant</Button>
             <DemoFilter value={{to, from}} onChange={onFilterChange} variant={variant} showTestProps={true}></DemoFilter>
             <pre>{`${from}_${to}`}</pre>

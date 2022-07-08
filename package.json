@@ -13,7 +13,7 @@
     "@types/node": "^12.20.47",
     "@types/react": "^16.14.24",
     "@types/react-dom": "^16.9.14",
-    "chakra-ui-demo": "file:chakra-ui-demo-0.1.0.tgz",
+    "chakra-ui-demo": "file:chakra-ui-demo-0.1.1.tgz",
     "cypress": "^9.5.3",
     "framer-motion": "^4.1.17",
     "react": "^17.0.2",
